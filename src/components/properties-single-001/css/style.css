@@ -1,0 +1,148 @@
+.properties-single-001
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 50px;
+}
+
+@media(min-width: 768px)
+{
+    .properties-single-001
+    {
+        grid-template-columns: 40% auto
+    }
+}
+
+@media(min-width: 1200px)
+{
+    .properties-single-001
+    {
+        grid-template-columns: 550px auto
+    }
+}
+
+
+.properties-single-001--col-01
+{
+    order: 2;
+}
+
+@media(min-width: 768px)
+{
+    .properties-single-001--col-01
+    {
+        order: 1;
+        margin-top: 0;
+    }
+}
+
+.properties-single-001--col-02
+{
+    order: 1;
+}
+
+@media(min-width: 768px)
+{
+    .properties-single-001--col-02
+    {
+        order: 2;
+    }
+}
+
+.properties-single-001--title
+{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.properties-single-001--description
+{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.properties-single-001--items
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 30px;
+}
+
+.properties-single-001--item
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% auto;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 10px 0 10px 0;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+.properties-single-001--item-col-1-label
+{
+    font-weight: 300;
+}
+
+.properties-single-001--item-col-1-value
+{
+    font-weight: bold;
+}
+
+.properties-single-001--gallery
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+@media(min-width: 1200px)
+{
+    .properties-single-001--gallery
+    {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+.properties-single-001--gallery-main
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media(min-width: 1200px)
+{
+    .properties-single-001--gallery-main
+    {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
+
+.properties-single-001--gallery-mini
+{
+
+}
+
+.properties-single-001--gallery-img
+{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}

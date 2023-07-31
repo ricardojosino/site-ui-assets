@@ -1,0 +1,35 @@
+.page-home
+{
+    background-color: #1e1f22;
+}
+
+.pages-home--version
+{
+    color: lightyellow;
+    font-size: 14px;
+}
+
+.pages-home--items
+{
+
+}
+
+.pages-home--items-item
+{
+    background-color: #2b2d30;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.pages-home--items-item:hover
+{
+    background-color: #101010;
+}
+
+.pages-home--items-item a
+{
+    color: #FFF;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}

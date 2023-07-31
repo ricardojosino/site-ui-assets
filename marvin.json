@@ -1,0 +1,39 @@
+{
+
+  "version" : 42,
+  "name" : "WordPress Site UI",
+
+  "install" :
+    {
+      "domain" : "https://localhost/website-interface-assets",
+      "folder" :  "website-interface-assets",
+      "theme" : "theme-01"
+    },
+
+  "components" : [
+
+    {"name" :  "about-us-001", "template" :  "section-container"},
+    {"name" :  "articles-list-001", "template" :  "section-container-xl"},
+    {"name" :  "articles-single-001", "template" :  "section-container-xl"},
+    {"name" :  "articles-related-001", "template" :  "full"},
+    {"name" :  "button-001", "template" :  "section-container-sm"},
+    {"name" :  "button-002", "template" :  "section-container-sm"},
+    {"name" :  "contact-card-001", "template" :  "section-container-xl"},
+    {"name" :  "footer-001", "template" :  "full"},
+    {"name" :  "form-001", "template" :  "section-container-md"},
+    {"name" :  "header-001", "template" :  "full"},
+    {"name" :  "latest-articles-001", "template" :  "section-container-xl"},
+    {"name" :  "main-menu-001", "template" :  "section-container-xl"},
+    {"name" :  "menu-hamburger-001", "template" :  "full-gap"},
+    {"name" :  "properties-contact-form-001", "template" :  "section-container-md"},
+    {"name" :  "properties-filter-001", "template" :  "section-container"},
+    {"name" :  "properties-list-001", "template" :  "section-container-xl"},
+    {"name" :  "properties-single-001", "template" :  "section-container-xl"},
+    {"name" :  "search-001", "template" :  "section-container-xl"},
+    {"name" :  "testimony-001", "template" :  "section-container"},
+    {"name" :  "typography", "template" :  "section-container-xl"},
+    {"name" :  "video-001", "template" :  "section-container-xl"},
+    {"name" :  "social-media-share-001", "template" :  "section-container-lg"}
+
+  ]
+}
