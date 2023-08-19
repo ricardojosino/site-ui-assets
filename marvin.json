@@ -5,8 +5,8 @@
 
   "install" :
     {
-      "domain" : "https://localhost/website-interface-assets",
-      "folder" :  "website-interface-assets",
+      "domain" : "https://localhost/site-ui-assets",
+      "folder" :  "site-ui-assets",
       "theme" : "theme-01"
     },
 
